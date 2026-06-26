@@ -1,0 +1,20 @@
+## missi-user 16 BP2A.250605.031.A3 OS3.0.300.0.WOJMIXM release-keys
+- Manufacturer: xiaomi
+- Platform: mt6899
+- Codename: rodin
+- Brand: Xiaomi
+- Flavor: xperience_rodin-userdebug
+- Release Version: 16
+- Kernel Version: 6.6.89
+- Id: BP4A.251205.006
+- Incremental: eng.androi
+- Tags: test-keys
+- CPU Abilist: arm64-v8a
+- A/B Device: true
+- Treble Device: true
+- Locale: en-US
+- Screen Density: 480
+- Fingerprint: POCO/rodin_global/rodin:15/AP3A.240905.015.A2/OS3.0.300.0.WOJMIXM:user/release-keys
+- OTA version: 
+- Branch: missi-user-16-BP2A.250605.031.A3-OS3.0.300.0.WOJMIXM-release-keys
+- Repo: xiaomi_rodin_dump

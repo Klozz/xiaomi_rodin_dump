@@ -1,0 +1,12 @@
+dtb: dtb/01_dtbdump_MT6899.dtb
+ramdisk: ramdisk/
+recovery_ramdisk: recovery_ramdisk/
+header version: 4
+pagesize: 4096
+base: 0x3fff8000
+kernel_offset: 0x00008000
+ramdisk_offset: 0x26f08000
+tags_offset: 0x07c88000
+dtb_offset: 0x07c88000
+vendor_cmdline: 'bootopt=64S3,32N2,64N2 kasan=off rcupdate.rcu_expedited=1 rcutree.enable_rcu_lazy bootconfig buildvariant=userdebug'
+board: ''

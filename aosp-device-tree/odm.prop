@@ -1,0 +1,58 @@
+# Audio
+audio.spatializer.pose_predictor_type=2
+audio.spatializer.prediction_duration_ms=50
+persist.vendor.audio.ultrasoundmute.support=true
+ro.vendor.audio.onetrack.audio_track_message.level=1
+
+# Display
+persist.vendor.dc_backlight.enable=false
+ro.vendor.cabc.enable=false
+ro.vendor.display.RemapBrightness.MaxRemapSilkybrightness=16379
+ro.vendor.display.RemapBrightness.MaxTolerancefac=1.01
+ro.vendor.display.RemapBrightness.MinTolerancefac=1
+ro.vendor.display.RemapBrightness.ToleranceEnable=1
+ro.vendor.display.RemapBrightness.ToleranceNit=600
+ro.vendor.display.all_modes_support_WCG.enable=true
+ro.vendor.display.update_gray_by_temperature=true
+ro.vendor.histogram.enable=1
+ro.vendor.mi_sf.hdr_enable_flatmode=true
+
+# Radio
+persist.vendor.radio.dynamic_sar=1
+
+# Sensors
+persist.vendor.sensor.maxbrightness=9800
+persist.vendor.sensor.powbrightness=15
+
+# Miscellaneous
+persist.vendor.accelerate.charge=true
+persist.vendor.battery.erp=true
+persist.vendor.battery.health=true
+persist.vendor.battery.health.optimise=true
+persist.vendor.doublentc=1
+persist.vendor.extreme.mode=true
+persist.vendor.hightemp.notice=true
+persist.vendor.low.cutoff=true
+persist.vendor.night.charge=true
+persist.vendor.region.charger=default
+persist.vendor.smart.battMntor.V2=true
+persist.vendor.smartchg=854
+persist.vendor.touchfeature.gameturbotool.version=v4
+persist.vendor.tracking.dfs=true
+persist.vendor.vcb.enable=false
+ro.odm.build.version.sdk_full=36.1
+ro.product.device_for_attestation=rodin
+ro.product.manufacturer_for_attestation=Xiaomi
+ro.product.property_source_order=odm,product,vendor,system_ext,system
+ro.vendor.dynamiccamera.ability_level=2
+ro.vendor.localhbm.enable=true
+ro.vendor.mtk.pq.aidl=true
+ro.vendor.mtk.pq.odm=true
+ro.vendor.pq.disp_game_HDR_support=true
+ro.vendor.soundtrigger.dfs.support=1
+ro.vendor.sre.enable=false
+ro.vendor.touch.touchscheduler.enable=true
+ro.vendor.xiaomi.bl.poll=true
+sys.displayfeature_hidl=false
+vendor.displayfeature.entry.enable=true
+

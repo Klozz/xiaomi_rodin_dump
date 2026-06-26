@@ -1,0 +1,50 @@
+# Audio
+ro.audio.flinger_standbytime_ms=2000
+ro.audio.ihaladaptervendorextension_enabled=true
+ro.audio.silent=0
+ro.audio.usb.period_us=16000
+
+# Display
+debug.sf.frame_rate_multiple_threshold=60
+ro.surface_flinger.enable_frame_rate_override=false
+
+# Media
+media.stagefright.thumbnail.prefer_hw_codecs=true
+
+# Radio
+ro.radio.device_type=1
+
+# Wi-Fi
+wifi.direct.interface=p2p0
+wifi.interface=wlan0
+wifi.tethering.interface=ap0
+
+# Miscellaneous
+persist.arm64.memtag.app.com.android.nfc=off
+persist.arm64.memtag.app.com.android.se=off
+persist.arm64.memtag.app.com.google.android.bluetooth=off
+persist.arm64.memtag.process.system_server=off
+persist.vendor.mtk_rtt_support=1
+persist.vendor.wfc.sys_wfc_support=1
+ro.camera.sound.forced=0
+ro.config.isolated_compilation_enabled=true
+ro.egl.blobcache.multifile=true
+ro.egl.blobcache.multifile_limit=33554432
+ro.face.sense_service=true
+ro.fota.oem=Xiaomi
+ro.mi.os.version.code=3
+ro.mi.os.version.incremental=OS3.0.304.0.WOEEUXM
+ro.product.device_for_attestation=rodin
+ro.product.manufacturer_for_attestation=Xiaomi
+ro.product.marketname=Xiaomi 15T
+ro.system_ext.build.version.sdk_full=36.1
+ro.vendor.imeisv=15
+ro.vendor.mtk_cta_set=1
+ro.vendor.mtk_gwsd_support=1
+ro.vendor.mtk_telephony_add_on_policy=0
+ro.vendor.vodata_support=1
+sys.brightness.disable_gamma_conversion=true
+sys.fflag.override.settings_volume_panel_in_systemui=true
+vendor.rild.libargs=-d /dev/ttyC0
+vendor.rild.libpath=mtk-ril.so
+
