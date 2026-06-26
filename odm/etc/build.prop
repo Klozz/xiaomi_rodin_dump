@@ -1,0 +1,93 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.odm.brand=Xiaomi
+ro.product.odm.device=rodin
+ro.product.odm.manufacturer=Xiaomi
+ro.product.odm.model=2412DPC0AG
+ro.product.odm.name=rodin_global
+ro.product.model_for_attestation=2412DPC0AG
+ro.product.brand_for_attestation=Xiaomi
+ro.product.name_for_attestation=rodin_global
+ro.product.device_for_attestation=rodin
+ro.product.manufacturer_for_attestation=Xiaomi
+ro.odm.product.cpu.abilist=arm64-v8a
+ro.odm.product.cpu.abilist32=
+ro.odm.product.cpu.abilist64=arm64-v8a
+ro.odm.build.date=Fri Jun 26 04:32:20 UTC 2026
+ro.odm.build.date.utc=1782448340
+ro.odm.build.fingerprint=POCO/rodin_global/rodin:15/AP3A.240905.015.A2/OS3.0.300.0.WOJMIXM:user/release-keys
+ro.odm.build.id=BP4A.251205.006
+ro.odm.build.tags=test-keys
+ro.odm.build.type=userdebug
+ro.odm.build.version.incremental=eng.androi
+ro.odm.build.version.release=16
+ro.odm.build.version.release_or_codename=16
+ro.odm.build.version.sdk=36
+ro.odm.build.version.sdk_full=36.1
+####################################
+# from device/xiaomi/rodin/odm.prop
+####################################
+# Audio
+audio.spatializer.pose_predictor_type=2
+audio.spatializer.prediction_duration_ms=50
+persist.vendor.audio.ultrasoundmute.support=true
+ro.vendor.audio.onetrack.audio_track_message.level=1
+ro.vendor.soundtrigger.dfs.support=1
+# Camera
+persist.vendor.vcb.enable=false
+ro.vendor.dynamiccamera.ability_level=2
+# Charging
+persist.vendor.smartchg=854
+persist.vendor.accelerate.charge=true
+persist.vendor.battery.health=true
+persist.vendor.battery.health.optimise=true
+persist.vendor.extreme.mode=true
+persist.vendor.battery.erp=true
+persist.vendor.tracking.dfs=true
+persist.vendor.doublentc=1
+persist.vendor.low.cutoff=true
+persist.vendor.hightemp.notice=true
+persist.vendor.night.charge=true
+persist.vendor.smart.battMntor.V2=true
+persist.vendor.region.charger=default
+# Display
+ro.vendor.display.RemapBrightness.MaxRemapSilkybrightness=16379
+ro.vendor.display.RemapBrightness.MaxTolerancefac=1.01
+ro.vendor.display.RemapBrightness.MinTolerancefac=1
+ro.vendor.display.RemapBrightness.ToleranceEnable=1
+ro.vendor.display.RemapBrightness.ToleranceNit=600
+ro.vendor.mtk.pq.odm=true
+# Radio
+persist.vendor.radio.dynamic_sar=1
+# Sensors
+persist.vendor.sensor.maxbrightness=9800
+persist.vendor.sensor.powbrightness=15
+# Thermal
+persist.vendor.tracking.dfs=true
+# Xiaomi display features
+persist.vendor.dc_backlight.enable=false
+ro.vendor.cabc.enable=false
+ro.vendor.display.all_modes_support_WCG.enable=true
+ro.vendor.display.update_gray_by_temperature=true
+ro.vendor.histogram.enable=1
+ro.vendor.localhbm.enable=true
+ro.vendor.pq.disp_game_HDR_support=true
+ro.vendor.sre.enable=false
+sys.displayfeature_hidl=false
+vendor.displayfeature.entry.enable=true
+ro.vendor.mi_sf.hdr_enable_flatmode=true
+ro.vendor.mtk.pq.aidl=true
+ro.vendor.xiaomi.bl.poll=true
+# Xiaomi touch features
+persist.vendor.touchfeature.gameturbotool.version=v4
+ro.vendor.touch.touchscheduler.enable=true
+# SKU
+ro.product.property_source_order=odm,product,vendor,system_ext,system
+import /odm/etc/rodin_${ro.boot.ptcountrycode}_build.prop
+import /odm/etc/${ro.boot.product.hardware.sku}_${ro.boot.hwversion}.prop
+####################################
+# from variable PRODUCT_ODM_PROPERTIES
+####################################
+# end of file
